@@ -1,0 +1,1 @@
+# Speckle-Hybrid-median-mean
