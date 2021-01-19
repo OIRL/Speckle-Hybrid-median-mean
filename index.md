@@ -4,8 +4,16 @@
 We present a single-shot computational method based on the use of a hybrid median-mean approach for reducing the spckle noise. The implementation allow for reconstructed amplitude and phase images trought the combination of the mean for several median filter of different neighborhoods around each pixel on the input image (e.g., different kernel sizes). Because, for each median filter, images with varying positions of speckle are generated, the average of the median-filtered images, taken between two consecutive kernel sizes, results in a final image with low speckle contrast in which the reduction in the spatial resolution introduced by the median filter has been addressed (e.g., no blurring). The proposed method has been evaluated in different experimental images in digital holography and digital holographic microscopy. 
 
 
-### Python code
-The Hybrid median-mean is available as XXXXX for python. The function have five parameters: i) sample: Corresponds to the noise image; max_kernel_size: the maximun dimension of the kernel, this number must be odd; noise image below an example of how to operate 
+### Python script
+The Hybrid median-mean is available as XXXXX for python. The function have five parameters: 
+- sample: Corresponds to the noise image 
+- max_kernel_size: the maximun dimension of the kernel, this number must be odd 
+- figures: allow to show the original image and the denoising image after applied the hybrid median-mean aproache; could be True or False 
+- plots: allow to selec a squuare region to measire the speckle contrast and show the plot speckle contras vs number of iterations; could be True or False
+- save_images: using this parameter to save the final denoising image; could be true or false
+
+ Below an example of how to operate with the hibrid median-mean script for python
+ 
 ```markdown
 # import library
 import HMM_UofM
@@ -14,15 +22,9 @@ import HMM_UofM
 HMM_UofM.HMM(sample, max_kernel_size, figures='True', plots_true='True', save_images='True')
 ```
 
-### Python code
+### Matlab script 
 ```markdown
-Parameters glioblastoma cells
-wavelength: 0.532nm
-pixel size: 2.4um
 
-Parameters USAF test target
-wavelength: 0.532nm
-pixel size: 4.65um
 ```
 
 ### Citation
