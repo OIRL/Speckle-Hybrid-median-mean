@@ -43,4 +43,4 @@ HMM_UofM.HMM(sample, max_kernel_size, figures='True', plots_true='True', save_im
 | Raul Castaneda | *rcstdq@memphis.edu* | [RaulGoogle](https://scholar.google.com/citations?user=RBtkL1oAAAAJ&hl=en) | [RaulResearch](https://www.researchgate.net/profile/Raul_Castaneda_Quintero)
 | Ana Doblas| *adoblas@memphis.edu* | [AnaGoogle](https://scholar.google.es/citations?user=PvvDEMYAAAAJ&hl=en) | [AnaResearch](https://www.researchgate.net/profile/Ana_Doblas2) |
 
-The main research of Speckle reduction Hybrid Median-mean project is Ana Doblas 
+The main researcher of Speckle reduction Hybrid Median-mean project is Ana Doblas 
