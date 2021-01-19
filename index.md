@@ -5,7 +5,7 @@ We present a single-shot computational method based on the use of a hybrid media
 
 
 ### Python code
-The Hybrid median-mean is available as XXXXX for python, below an example of how to operate 
+The Hybrid median-mean is available as XXXXX for python. The function have five parameters: i) sample: Corresponds to the noise image; max_kernel_size: the maximun dimension of the kernel, this number must be odd; noise image below an example of how to operate 
 ```markdown
 # import library
 import HMM_UofM
