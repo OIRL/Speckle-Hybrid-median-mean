@@ -4,7 +4,7 @@
 We present a single-shot computational method based on the use of a hybrid median-mean approach for reducing the spckle noise. The implementation allow for reconstructed amplitude and phase images trought the combination of the mean for several median filter of different neighborhoods around each pixel on the input image (e.g., different kernel sizes). Because, for each median filter, images with varying positions of speckle are generated, the average of the median-filtered images, taken between two consecutive kernel sizes, results in a final image with low speckle contrast in which the reduction in the spatial resolution introduced by the median filter has been addressed (e.g., no blurring). The proposed method has been evaluated in different experimental images in digital holography and digital holographic microscopy. 
 
 <p align="center">
-<img src="images/die.png" alt="hi" class="inline"/>
+<img src="Images/die.png" alt="hi" class="inline"/>
 </p>
 
 
