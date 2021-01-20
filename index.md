@@ -9,12 +9,12 @@ We present a single-shot computational method based on the use of a hybrid media
 
 
 ### Python script
-The Hybrid median-mean is available as XXXXX for python. The function have five parameters: 
-- sample: Corresponds to the noise image 
-- max_kernel_size: the maximun dimension of the kernel, this number must be odd 
-- figures: allow to show the original image and the denoising image after applied the hybrid median-mean aproache; could be True or False 
-- plots: allow to selec a squuare region to measire the speckle contrast and show the plot speckle contras vs number of iterations; could be True or False
-- save_images: using this parameter to save the final denoising image; could be true or false
+The **hybrid median-mean method** is available as script for Python. The function have five parameters: 
+- **image**: Corresponds to the noise image 
+- **max_kernel_size**: The maximun dimension of the kernel, this number must be odd 
+- **figures**: Allow to show the original/noise image (named as *image*) and the denoising image after applied the hybrid median-mean approach; Figures has two options: *True* for displaying both images or *False* for not displaying  
+- **plots**: Allow to select a square region to measure/quantify the speckle contrast and plot the speckle contrast vs number of iterations; Plots has two options *True* or *False*
+- **save_image**: Allow to save the final denoising image; Save_images has two options *True* or *False*
 
  Below an example of how to operate with the hibrid median-mean script for python
  
@@ -23,7 +23,7 @@ The Hybrid median-mean is available as XXXXX for python. The function have five 
 import HMM_UofM
 
 # call the function HHM_UofM.HMM
-HMM_UofM.HMM(sample, max_kernel_size, figures='True', plots_true='True', save_images='True')
+HMM_UofM.HMM(image, max_kernel_size, figures='True', plots ='True', save_image='True')
 ```
 
 
