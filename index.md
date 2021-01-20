@@ -22,14 +22,10 @@ The Hybrid median-mean is available as XXXXX for python. The function have five 
 # import library
 import HMM_UofM
 
-# call de function HHM_UofM.HMM
+# call the function HHM_UofM.HMM
 HMM_UofM.HMM(sample, max_kernel_size, figures='True', plots_true='True', save_images='True')
 ```
 
-### Matlab script 
-```markdown
-
-```
 
 ### Citation
 * If using blind three raws holograms algorithm for publication, please kindly cite the following:
