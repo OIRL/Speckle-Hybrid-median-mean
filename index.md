@@ -7,6 +7,10 @@ We present a single-shot computational method based on the use of a hybrid media
 <img src="Images/die.png" alt="hi" class="inline" width="528" height="300"/>
 </p>
 
+### Scripts
+After publications of this method, both MATLAB and Python scripts will be freely available. 
+
+### MATLAB script
 
 ### Python script
 The **hybrid median-mean method** is available as a script for Python. The function has five parameters: 
