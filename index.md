@@ -9,14 +9,14 @@ We present a single-shot computational method based on the use of a hybrid media
 
 
 ### Python script
-The **hybrid median-mean method** is available as script for Python. The function have five parameters: 
-- **image**: Corresponds to the noise image 
-- **max_kernel_size**: The maximun dimension of the kernel, this number must be odd 
-- **figures**: Allow to show the original/noise image (named as *image*) and the denoising image after applied the hybrid median-mean approach; Figures has two options: *True* for displaying both images or *False* for not displaying  
-- **plots**: Allow to select a square region to measure/quantify the speckle contrast and plot the speckle contrast vs number of iterations; Plots has two options *True* or *False*
-- **save_image**: Allow to save the final denoising image after applying the hybrid median-mean method; Save_image has two options *True* or *False*
+The **hybrid median-mean method** is available as a script for Python. The function has five parameters: 
+- **image**: Corresponds to the noise image. 
+- **max_kernel_size**: The maximun dimension of the kernel, this number must be odd. 
+- **figures**: Allow to show the original/noise image (named as *image*) and the denoising image after applied the hybrid median-mean approach; Figures has two options: *True* for displaying both images or *False* for not displaying.  
+- **plots**: Allow to select a square region to measure/quantify the speckle contrast and plot the speckle contrast vs number of iterations; Plots has two options *True* or *False*.
+- **save_image**: Allow to save the final denoising image after applying the hybrid median-mean method; Save_image has two options *True* or *False*.
 
- Below there is an example for running the hybrid median-mean method in Python
+ Below there is an example for running the hybrid median-mean method in Python:
  
 ```markdown
 # import library
@@ -26,7 +26,7 @@ import HMM_UofM
 HMM_UofM.HMM(image, max_kernel_size, figures='True', plots ='True', save_image='True')
 ```
 ### Acknowledgments
-R. Castaneda and A. Doblas acknowledge the support from the University of Memphis and the Herff College of Engineering
+R. Castaneda and A. Doblas acknowledge the support from the University of Memphis and the Herff College of Engineering.
 
 ### Citation
 We appreciate your citation if using hybrid median-mean method for publication:
@@ -40,4 +40,3 @@ We appreciate your citation if using hybrid median-mean method for publication:
 | Raul Castaneda | *rcstdq@memphis.edu* | [RaulGoogle](https://scholar.google.com/citations?user=RBtkL1oAAAAJ&hl=en) | [RaulResearch](https://www.researchgate.net/profile/Raul_Castaneda_Quintero)
 | Ana Doblas| *adoblas@memphis.edu* | [AnaGoogle](https://scholar.google.es/citations?user=PvvDEMYAAAAJ&hl=en) | [AnaResearch](https://www.researchgate.net/profile/Ana_Doblas2) |
 
-The main researcher of Speckle reduction Hybrid Median-mean project is Ana Doblas 
