@@ -44,6 +44,9 @@ HMM.HybridMedianMean(image, max_kernel_size, figures='True', plots ='True', save
 ### Acknowledgments
 R. Castaneda and A. Doblas acknowledge the support from the University of Memphis and the Herff College of Engineering.
 
+### Credits
+**hybrid median-mean method** is developed in MATLAB (2020). version 7.10.0 (R2020a). Natick, Massachusetts: The MathWorks Inc.
+
 ### Citation
 We appreciate your citation if using hybrid median-mean method for publication:
 
