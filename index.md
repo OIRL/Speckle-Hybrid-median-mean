@@ -38,8 +38,8 @@ HMM.HybridMedianMean(image, max_kernel_size, figures='True', plots ='True', save
 ```
 
 ### Dowloads
-* MATLAB 
-* Python scrip 
+* [HMM-MATLAB](https://https://drive.google.com/drive/u/0/folders/1qKZl73CaKVk7W9Q_TssyLhuV8NS3PUCg)
+* [HMM-Python](https://drive.google.com/drive/u/0/folders/1GVDsOmR3F7uSupuIoMjLH8boQ60ZP-Xh) 
 
 ### Acknowledgments
 R. Castaneda and A. Doblas acknowledge the support from the University of Memphis and the Herff College of Engineering.
