@@ -12,6 +12,7 @@ After publications of this method, both MATLAB and Python scripts will be freely
 
 ### MATLAB script
 
+
 ### Python script
 The **hybrid median-mean method** is available as a script for Python. The function has five parameters: 
 - **image**: Corresponds to the noise image. 
@@ -24,11 +25,16 @@ The **hybrid median-mean method** is available as a script for Python. The funct
  
 ```markdown
 # import library
-import HMM_UofM
+import HMM
 
 # call the function HHM_UofM.HMM
-HMM_UofM.HMM(image, max_kernel_size, figures='True', plots ='True', save_image='True')
+HMM.HybridMedianMean(image, max_kernel_size, figures='True', plots ='True', save_image='True')
 ```
+
+### Dowloads
+* MATLAB 
+* Python scrip 
+
 ### Acknowledgments
 R. Castaneda and A. Doblas acknowledge the support from the University of Memphis and the Herff College of Engineering.
 
