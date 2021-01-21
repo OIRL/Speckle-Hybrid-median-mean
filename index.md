@@ -9,17 +9,23 @@ We present a single-shot computational method based on the use of a hybrid media
 
 ### Scripts
 After publications of this method, both MATLAB and Python scripts will be freely available. 
+The **hybrid median-mean method** has five parameters for both enviroments MATLAB and PYthon:
 
-### MATLAB script
-
-
-### Python script
-The **hybrid median-mean method** is available as a script for Python. The function has five parameters: 
 - **image**: Corresponds to the noise image. 
 - **max_kernel_size**: The maximun dimension of the kernel, this number must be odd. 
 - **figures**: Allow to show the original/noise image (named as *image*) and the denoising image after applied the hybrid median-mean approach; Figures has two options: *True* for displaying both images or *False* for not displaying.  
 - **plots**: Allow to select a square region to measure/quantify the speckle contrast and plot the speckle contrast vs number of iterations; Plots has two options *True* or *False*.
 - **save_image**: Allow to save the final denoising image after applying the hybrid median-mean method; Save_image has two options *True* or *False*.
+
+### MATLAB script
+ Below there is an example for running the hybrid median-mean method in Python:
+ 
+```markdown
+
+# call the script 
+[denoising] = hybrid_median_mean(image, max_kernel_size, figures='True', plots ='True', save_image='True')
+
+### Python script
 
  Below there is an example for running the hybrid median-mean method in Python:
  
