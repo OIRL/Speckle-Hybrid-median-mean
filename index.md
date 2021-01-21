@@ -18,15 +18,14 @@ The **hybrid median-mean method** has five parameters for both enviroments MATLA
 - **save_image**: Allow to save the final denoising image after applying the hybrid median-mean method; Save_image has two options *True* or *False*.
 
 ### MATLAB script
- Below there is an example for running the hybrid median-mean method in Python:
+ Below there is an example for running the hybrid median-mean method in MATLAB:
  
 ```markdown
-
 # call the script 
 [denoising] = hybrid_median_mean(image, max_kernel_size, figures='True', plots ='True', save_image='True')
+```
 
 ### Python script
-
  Below there is an example for running the hybrid median-mean method in Python:
  
 ```markdown
