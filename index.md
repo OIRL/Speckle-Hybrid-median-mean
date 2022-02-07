@@ -42,7 +42,7 @@ HMM.HybridMedianMean(image, max_kernel_size, figures='True', plots ='True', save
 * [HMM-Python](https://drive.google.com/file/d/1OMfWdNFn0yRrQ8LEu5RoW_duI3dLejkZ/view?usp=sharing) 
 
 ### Acknowledgments
-R. Castaneda and A. Doblas acknowledge the support from the University of Memphis and the Herff College of Engineering.
+This project was partially funded by the National Science Foundation (grant number 2042563) and the Universidad Nacional de Colombia Sede Medellin. R. Castaneda and A. Doblas acknowledge the support from the University of Memphis and the Herff College of Engineering.
 
 ### Credits
 **hybrid median-mean method** is developed in MATLAB (2020). version 7.10.0 (R2020a). Natick, Massachusetts: The MathWorks Inc.
@@ -50,7 +50,7 @@ R. Castaneda and A. Doblas acknowledge the support from the University of Memphi
 ### Citation
 We appreciate your citation if using hybrid median-mean method for publication:
 
-* R. Castaneda, J. Garcia-Sucerquia and A. Doblas, “Speckle Noise Reduction in Digital Holography via a Hybrid Median-Mean Approach,” Appl. Opt, under review (2021).
+* R. Castaneda, J. Garcia-Sucerquia and A. Doblas, “Speckle noise reduction in coherent imaging systems via hybrid median-mean filter,” Opt. Engineering 60(12), 123107 (2021).  https://doi.org/10.1117/1.OE.60.12.123107
 
 ### Support or Contact
 
